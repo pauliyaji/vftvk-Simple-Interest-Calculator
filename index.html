@@ -1,6 +1,6 @@
 <!DOCTYPE html>
     <head>
-        <title>Simple Interest Calculator</title>
+        <title>Web App – Simple Interest Calculator</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     </head>
@@ -8,13 +8,13 @@
        <div class="maindiv">
             <h1>Simple Interest Calculator</h1>
 
-        Amount <input type="number" name="principal" id="principal">  <br/><br/>
-        Interest : <input type="range" id="rate" min="1" max="20" step="0.25" value="10.25" onchange="updateRate()">
+        <label>Amount :</label> <input type="number" name="principal" id="principal">  <br/><br/>
+        <label>Interest :</label> <input type="range" id="rate" min="1" max="20" step="0.25" value="10.25" onchange="updateRate()">
 		<!-- display area for range input value -->
 		<span id="rate_val">10.25%</span><br/><br/>
 		<!-- range display end -->
 		
-        No. of Years <select id="years">
+        <label>No. of Years :</label> <select id="years">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -35,6 +35,6 @@
        </div>
     </body>
     <footer>
-            &#169; This Calculator belongs to --Paul Iyaji--
+            &#169; Everyone Can Get Rich
     </footer>
 </html>
